@@ -27,8 +27,20 @@ struct Depth2View: View {
       Color
         .green
         .ignoresSafeArea()
-      Button("reset: \(viewStore.random)") {
-        viewStore.send(.reset)
+      VStack {
+        Button("reset: \(viewStore.random)") {
+          viewStore.send(.reset)
+        }
+        NavigationView {
+          NavigationLink("show depth3") { //another NavigationView
+            Depth3View(
+              store: store.scope(
+                state: \.depth3State,
+                action: Depth2Action.depth3Action
+              )
+            )
+          }
+        }
       }
     }
   }

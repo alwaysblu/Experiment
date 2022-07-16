@@ -8,5 +8,13 @@
 import ComposableArchitecture
 
 struct Depth2State: Equatable {
-  var random: Int = 0
+  var depth3State: Depth3State
+  var random: Int
+
+  init(
+    depth3State: Depth3State = .init()
+  ) {
+    self.depth3State = depth3State
+    random = 0
+  }
 }

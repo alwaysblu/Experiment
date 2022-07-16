@@ -30,6 +30,21 @@
 		8AA638CF28824351003A97A5 /* Depth2Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638CA28824351003A97A5 /* Depth2Reducer.swift */; };
 		8AA638D028824351003A97A5 /* Depth2State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638CB28824351003A97A5 /* Depth2State.swift */; };
 		8AA638D228824B4B003A97A5 /* AlwaysEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D128824B4B003A97A5 /* AlwaysEquatable.swift */; };
+		8AA638D928824CDD003A97A5 /* Depth3Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D428824CDD003A97A5 /* Depth3Action.swift */; };
+		8AA638DA28824CDD003A97A5 /* Depth3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D528824CDD003A97A5 /* Depth3View.swift */; };
+		8AA638DB28824CDD003A97A5 /* Depth3Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D628824CDD003A97A5 /* Depth3Environment.swift */; };
+		8AA638DC28824CDD003A97A5 /* Depth3Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D728824CDD003A97A5 /* Depth3Reducer.swift */; };
+		8AA638DD28824CDD003A97A5 /* Depth3State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D828824CDD003A97A5 /* Depth3State.swift */; };
+		8AA638E428824EE1003A97A5 /* Depth4Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638DF28824EE1003A97A5 /* Depth4Action.swift */; };
+		8AA638E528824EE1003A97A5 /* Depth4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638E028824EE1003A97A5 /* Depth4View.swift */; };
+		8AA638E628824EE1003A97A5 /* Depth4Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638E128824EE1003A97A5 /* Depth4Environment.swift */; };
+		8AA638E728824EE1003A97A5 /* Depth4Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638E228824EE1003A97A5 /* Depth4Reducer.swift */; };
+		8AA638E828824EE1003A97A5 /* Depth4State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638E328824EE1003A97A5 /* Depth4State.swift */; };
+		8AA638EF28825382003A97A5 /* Depth5Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638EA28825382003A97A5 /* Depth5Action.swift */; };
+		8AA638F028825382003A97A5 /* Depth5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638EB28825382003A97A5 /* Depth5View.swift */; };
+		8AA638F128825382003A97A5 /* Depth5Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638EC28825382003A97A5 /* Depth5Environment.swift */; };
+		8AA638F228825382003A97A5 /* Depth5Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638ED28825382003A97A5 /* Depth5Reducer.swift */; };
+		8AA638F328825382003A97A5 /* Depth5State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638EE28825382003A97A5 /* Depth5State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +90,21 @@
 		8AA638CA28824351003A97A5 /* Depth2Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2Reducer.swift; sourceTree = "<group>"; };
 		8AA638CB28824351003A97A5 /* Depth2State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2State.swift; sourceTree = "<group>"; };
 		8AA638D128824B4B003A97A5 /* AlwaysEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysEquatable.swift; sourceTree = "<group>"; };
+		8AA638D428824CDD003A97A5 /* Depth3Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth3Action.swift; sourceTree = "<group>"; };
+		8AA638D528824CDD003A97A5 /* Depth3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth3View.swift; sourceTree = "<group>"; };
+		8AA638D628824CDD003A97A5 /* Depth3Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth3Environment.swift; sourceTree = "<group>"; };
+		8AA638D728824CDD003A97A5 /* Depth3Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth3Reducer.swift; sourceTree = "<group>"; };
+		8AA638D828824CDD003A97A5 /* Depth3State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth3State.swift; sourceTree = "<group>"; };
+		8AA638DF28824EE1003A97A5 /* Depth4Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth4Action.swift; sourceTree = "<group>"; };
+		8AA638E028824EE1003A97A5 /* Depth4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth4View.swift; sourceTree = "<group>"; };
+		8AA638E128824EE1003A97A5 /* Depth4Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth4Environment.swift; sourceTree = "<group>"; };
+		8AA638E228824EE1003A97A5 /* Depth4Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth4Reducer.swift; sourceTree = "<group>"; };
+		8AA638E328824EE1003A97A5 /* Depth4State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth4State.swift; sourceTree = "<group>"; };
+		8AA638EA28825382003A97A5 /* Depth5Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth5Action.swift; sourceTree = "<group>"; };
+		8AA638EB28825382003A97A5 /* Depth5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth5View.swift; sourceTree = "<group>"; };
+		8AA638EC28825382003A97A5 /* Depth5Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth5Environment.swift; sourceTree = "<group>"; };
+		8AA638ED28825382003A97A5 /* Depth5Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth5Reducer.swift; sourceTree = "<group>"; };
+		8AA638EE28825382003A97A5 /* Depth5State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth5State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +156,9 @@
 		8AA6388128823DF8003A97A5 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
+				8AA638E928825364003A97A5 /* Depth5 */,
+				8AA638DE28824ED2003A97A5 /* Depth4 */,
+				8AA638D328824CC8003A97A5 /* Depth3 */,
 				8AA638BB2882429E003A97A5 /* Depth2 */,
 				8AA638BA28824291003A97A5 /* Depth1 */,
 				8AA638AC28824148003A97A5 /* Root */,
@@ -196,6 +229,42 @@
 				8AA638CB28824351003A97A5 /* Depth2State.swift */,
 			);
 			path = Depth2;
+			sourceTree = "<group>";
+		};
+		8AA638D328824CC8003A97A5 /* Depth3 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA638D428824CDD003A97A5 /* Depth3Action.swift */,
+				8AA638D528824CDD003A97A5 /* Depth3View.swift */,
+				8AA638D628824CDD003A97A5 /* Depth3Environment.swift */,
+				8AA638D728824CDD003A97A5 /* Depth3Reducer.swift */,
+				8AA638D828824CDD003A97A5 /* Depth3State.swift */,
+			);
+			path = Depth3;
+			sourceTree = "<group>";
+		};
+		8AA638DE28824ED2003A97A5 /* Depth4 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA638DF28824EE1003A97A5 /* Depth4Action.swift */,
+				8AA638E028824EE1003A97A5 /* Depth4View.swift */,
+				8AA638E128824EE1003A97A5 /* Depth4Environment.swift */,
+				8AA638E228824EE1003A97A5 /* Depth4Reducer.swift */,
+				8AA638E328824EE1003A97A5 /* Depth4State.swift */,
+			);
+			path = Depth4;
+			sourceTree = "<group>";
+		};
+		8AA638E928825364003A97A5 /* Depth5 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA638EA28825382003A97A5 /* Depth5Action.swift */,
+				8AA638EB28825382003A97A5 /* Depth5View.swift */,
+				8AA638EC28825382003A97A5 /* Depth5Environment.swift */,
+				8AA638ED28825382003A97A5 /* Depth5Reducer.swift */,
+				8AA638EE28825382003A97A5 /* Depth5State.swift */,
+			);
+			path = Depth5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,20 +406,35 @@
 				8AA638CE28824351003A97A5 /* Depth2Environment.swift in Sources */,
 				8AA638B328824177003A97A5 /* RootView.swift in Sources */,
 				8AA638B228824177003A97A5 /* RootAction.swift in Sources */,
+				8AA638E428824EE1003A97A5 /* Depth4Action.swift in Sources */,
+				8AA638DD28824CDD003A97A5 /* Depth3State.swift in Sources */,
+				8AA638DB28824CDD003A97A5 /* Depth3Environment.swift in Sources */,
 				8AA638C428824345003A97A5 /* Depth1Environment.swift in Sources */,
+				8AA638E528824EE1003A97A5 /* Depth4View.swift in Sources */,
 				8AA638D028824351003A97A5 /* Depth2State.swift in Sources */,
 				8AA638B428824177003A97A5 /* RootEnvironment.swift in Sources */,
 				8AA638C628824345003A97A5 /* Depth1State.swift in Sources */,
+				8AA638F028825382003A97A5 /* Depth5View.swift in Sources */,
 				8AA638C528824345003A97A5 /* Depth1Reducer.swift in Sources */,
 				8AA638C228824345003A97A5 /* Depth1Action.swift in Sources */,
 				8AA638C328824345003A97A5 /* Depth1View.swift in Sources */,
 				8AA638B628824177003A97A5 /* RootState.swift in Sources */,
 				8AA638D228824B4B003A97A5 /* AlwaysEquatable.swift in Sources */,
+				8AA638DA28824CDD003A97A5 /* Depth3View.swift in Sources */,
 				8AA638CF28824351003A97A5 /* Depth2Reducer.swift in Sources */,
+				8AA638F128825382003A97A5 /* Depth5Environment.swift in Sources */,
+				8AA638E628824EE1003A97A5 /* Depth4Environment.swift in Sources */,
 				8AA638B528824177003A97A5 /* RootReducer.swift in Sources */,
 				8AA638CC28824351003A97A5 /* Depth2Action.swift in Sources */,
+				8AA638F328825382003A97A5 /* Depth5State.swift in Sources */,
 				8AA638CD28824351003A97A5 /* Depth2View.swift in Sources */,
 				8AA6388328823DF8003A97A5 /* ExperimentApp.swift in Sources */,
+				8AA638E728824EE1003A97A5 /* Depth4Reducer.swift in Sources */,
+				8AA638E828824EE1003A97A5 /* Depth4State.swift in Sources */,
+				8AA638EF28825382003A97A5 /* Depth5Action.swift in Sources */,
+				8AA638DC28824CDD003A97A5 /* Depth3Reducer.swift in Sources */,
+				8AA638D928824CDD003A97A5 /* Depth3Action.swift in Sources */,
+				8AA638F228825382003A97A5 /* Depth5Reducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

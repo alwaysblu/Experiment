@@ -6,5 +6,6 @@
 //
 
 enum Depth2Action: Equatable {
+  case depth3Action(Depth3Action)
   case reset
 }

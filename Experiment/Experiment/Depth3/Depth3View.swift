@@ -1,5 +1,5 @@
 //
-//  Depth1View.swift
+//  Depth3View.swift
 //  Experiment
 //
 //  Created by 최정민 on 2022/07/16.
@@ -10,14 +10,14 @@ import SwiftUI
 
 // MARK: View
 
-struct Depth1View: View {
+struct Depth3View: View {
 
   @ObservedObject
-  private var viewStore: Depth1ViewStore
+  private var viewStore: Depth3ViewStore
 
-  private let store: Depth1Store
+  private let store: Depth3Store
 
-  init(store: Depth1Store) {
+  init(store: Depth3Store) {
     self.viewStore = ViewStore(store)
     self.store = store
   }
@@ -25,18 +25,18 @@ struct Depth1View: View {
   var body: some View {
     ZStack {
       Color
-        .black
+        .pink
         .ignoresSafeArea()
       VStack {
         Button("reset: \(viewStore.random)") {
           viewStore.send(.reset)
         }
-        NavigationLink("show depth2") {
-          Depth2View(
-            store: store
-              .scope(
-                state: \.depth2State,
-                action: Depth1Action.depth2Action
+        NavigationLink("show depth4") {
+          Depth4View(
+            store:
+              store.scope(
+                state: \.depth4State,
+                action: Depth3Action.depth4Action
               )
           )
         }
@@ -47,31 +47,31 @@ struct Depth1View: View {
 
 // MARK: Store
 
-typealias Depth1Store = Store<
-  Depth1State,
-  Depth1Action
+typealias Depth3Store = Store<
+  Depth3State,
+  Depth3Action
 >
 
 // MARK: ViewStore
 
-typealias Depth1ViewStore = ViewStore<
-  Depth1State,
-  Depth1Action
+typealias Depth3ViewStore = ViewStore<
+  Depth3State,
+  Depth3Action
 >
 
 // MARK: Preview
 
-struct Depth1View_Previews: PreviewProvider {
+struct Depth3View_Previews: PreviewProvider {
 
   static var previews: some View {
     ForEach(ColorScheme.allCases, id: \.self) { colorScheme in
-      Depth1View(store: store)
+      Depth3View(store: store)
         .preferredColorScheme(colorScheme)
         .previewLayout(.sizeThatFits)
     }
   }
 
-  static let store: Depth1Store = .init(
+  static let store: Depth3Store = .init(
     initialState: .init(),
     reducer: .init(),
     environment: .init()

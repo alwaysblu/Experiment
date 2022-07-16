@@ -28,7 +28,7 @@ struct RootView: View {
         Color
           .red
           .ignoresSafeArea()
-        NavigationLink("depth1") {
+        NavigationLink("show depth1") {
           Depth1View(
             store: store
               .scope(

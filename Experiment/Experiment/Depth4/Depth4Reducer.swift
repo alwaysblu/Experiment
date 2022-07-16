@@ -1,5 +1,5 @@
 //
-//  Depth1Reducer.swift
+//  Depth4Reducer.swift
 //  Experiment
 //
 //  Created by 최정민 on 2022/07/16.
@@ -7,26 +7,26 @@
 
 import ComposableArchitecture
 
-typealias Depth1Reducer = Reducer<
-  Depth1State,
-  Depth1Action,
-  Depth1Environment
+typealias Depth4Reducer = Reducer<
+  Depth4State,
+  Depth4Action,
+  Depth4Environment
 >
 
-extension Depth1Reducer {
+extension Depth4Reducer {
   init() {
     self = Self
       .combine(
-        Depth2Reducer().pullback(
-          state: \.depth2State,
-          action: /Depth1Action.depth2Action,
-          environment: {_ in
-            Depth2Environment()
+        Depth5Reducer().pullback(
+          state: \.depth5State,
+          action: /Depth4Action.depth5Action,
+          environment: { _ in
+            Depth5Environment()
           }
         ),
         .init { state, action, environment in
           switch action {
-          case .depth2Action:
+          case .depth5Action:
             return .none
 
           case .reset:

@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8AA6388328823DF8003A97A5 /* ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6388228823DF8003A97A5 /* ExperimentApp.swift */; };
-		8AA6388528823DF8003A97A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6388428823DF8003A97A5 /* ContentView.swift */; };
 		8AA6388728823DF9003A97A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6388628823DF9003A97A5 /* Assets.xcassets */; };
 		8AA6388A28823DF9003A97A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6388928823DF9003A97A5 /* Preview Assets.xcassets */; };
 		8AA6389428823DF9003A97A5 /* ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6389328823DF9003A97A5 /* ExperimentTests.swift */; };
 		8AA6389E28823DF9003A97A5 /* ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6389D28823DF9003A97A5 /* ExperimentUITests.swift */; };
 		8AA638A028823DF9003A97A5 /* ExperimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6389F28823DF9003A97A5 /* ExperimentUITestsLaunchTests.swift */; };
+		8AA638B228824177003A97A5 /* RootAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638AD28824177003A97A5 /* RootAction.swift */; };
+		8AA638B328824177003A97A5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638AE28824177003A97A5 /* RootView.swift */; };
+		8AA638B428824177003A97A5 /* RootEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638AF28824177003A97A5 /* RootEnvironment.swift */; };
+		8AA638B528824177003A97A5 /* RootReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638B028824177003A97A5 /* RootReducer.swift */; };
+		8AA638B628824177003A97A5 /* RootState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638B128824177003A97A5 /* RootState.swift */; };
+		8AA638B9288241D2003A97A5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8AA638B8288241D2003A97A5 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		8AA6387F28823DF8003A97A5 /* Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA6388228823DF8003A97A5 /* ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentApp.swift; sourceTree = "<group>"; };
-		8AA6388428823DF8003A97A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AA6388628823DF9003A97A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA6388928823DF9003A97A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AA6388F28823DF9003A97A5 /* ExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,11 @@
 		8AA6389928823DF9003A97A5 /* ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA6389D28823DF9003A97A5 /* ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentUITests.swift; sourceTree = "<group>"; };
 		8AA6389F28823DF9003A97A5 /* ExperimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AA638AD28824177003A97A5 /* RootAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAction.swift; sourceTree = "<group>"; };
+		8AA638AE28824177003A97A5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8AA638AF28824177003A97A5 /* RootEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootEnvironment.swift; sourceTree = "<group>"; };
+		8AA638B028824177003A97A5 /* RootReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootReducer.swift; sourceTree = "<group>"; };
+		8AA638B128824177003A97A5 /* RootState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA638B9288241D2003A97A5 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +104,8 @@
 		8AA6388128823DF8003A97A5 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
+				8AA638AC28824148003A97A5 /* Root */,
 				8AA6388228823DF8003A97A5 /* ExperimentApp.swift */,
-				8AA6388428823DF8003A97A5 /* ContentView.swift */,
 				8AA6388628823DF9003A97A5 /* Assets.xcassets */,
 				8AA6388828823DF9003A97A5 /* Preview Content */,
 			);
@@ -127,6 +137,18 @@
 			path = ExperimentUITests;
 			sourceTree = "<group>";
 		};
+		8AA638AC28824148003A97A5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8AA638AD28824177003A97A5 /* RootAction.swift */,
+				8AA638AE28824177003A97A5 /* RootView.swift */,
+				8AA638AF28824177003A97A5 /* RootEnvironment.swift */,
+				8AA638B028824177003A97A5 /* RootReducer.swift */,
+				8AA638B128824177003A97A5 /* RootState.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +165,9 @@
 			dependencies = (
 			);
 			name = Experiment;
+			packageProductDependencies = (
+				8AA638B8288241D2003A97A5 /* ComposableArchitecture */,
+			);
 			productName = Experiment;
 			productReference = 8AA6387F28823DF8003A97A5 /* Experiment.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 8AA6387628823DF8003A97A5;
+			packageReferences = (
+				8AA638B7288241D2003A97A5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 8AA6388028823DF8003A97A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA6388528823DF8003A97A5 /* ContentView.swift in Sources */,
+				8AA638B328824177003A97A5 /* RootView.swift in Sources */,
+				8AA638B228824177003A97A5 /* RootAction.swift in Sources */,
+				8AA638B428824177003A97A5 /* RootEnvironment.swift in Sources */,
+				8AA638B628824177003A97A5 /* RootState.swift in Sources */,
+				8AA638B528824177003A97A5 /* RootReducer.swift in Sources */,
 				8AA6388328823DF8003A97A5 /* ExperimentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +615,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8AA638B7288241D2003A97A5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8AA638B8288241D2003A97A5 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AA638B7288241D2003A97A5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8AA6387728823DF8003A97A5 /* Project object */;
 }

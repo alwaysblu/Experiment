@@ -11,7 +11,13 @@ import SwiftUI
 struct ExperimentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          RootView(
+            store: .init(
+              initialState: .init(),
+              reducer: .init(),
+              environment: .init()
+            )
+          )
         }
     }
 }

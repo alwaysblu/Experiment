@@ -8,4 +8,11 @@
 import ComposableArchitecture
 
 struct RootState: Equatable {
+  var depth1State: Depth1State
+
+  init(
+    depth1State: Depth1State = .init()
+  ) {
+    self.depth1State = depth1State
+  }
 }

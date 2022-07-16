@@ -19,6 +19,17 @@
 		8AA638B528824177003A97A5 /* RootReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638B028824177003A97A5 /* RootReducer.swift */; };
 		8AA638B628824177003A97A5 /* RootState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638B128824177003A97A5 /* RootState.swift */; };
 		8AA638B9288241D2003A97A5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8AA638B8288241D2003A97A5 /* ComposableArchitecture */; };
+		8AA638C228824345003A97A5 /* Depth1Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638BD28824345003A97A5 /* Depth1Action.swift */; };
+		8AA638C328824345003A97A5 /* Depth1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638BE28824345003A97A5 /* Depth1View.swift */; };
+		8AA638C428824345003A97A5 /* Depth1Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638BF28824345003A97A5 /* Depth1Environment.swift */; };
+		8AA638C528824345003A97A5 /* Depth1Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638C028824345003A97A5 /* Depth1Reducer.swift */; };
+		8AA638C628824345003A97A5 /* Depth1State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638C128824345003A97A5 /* Depth1State.swift */; };
+		8AA638CC28824351003A97A5 /* Depth2Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638C728824351003A97A5 /* Depth2Action.swift */; };
+		8AA638CD28824351003A97A5 /* Depth2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638C828824351003A97A5 /* Depth2View.swift */; };
+		8AA638CE28824351003A97A5 /* Depth2Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638C928824351003A97A5 /* Depth2Environment.swift */; };
+		8AA638CF28824351003A97A5 /* Depth2Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638CA28824351003A97A5 /* Depth2Reducer.swift */; };
+		8AA638D028824351003A97A5 /* Depth2State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638CB28824351003A97A5 /* Depth2State.swift */; };
+		8AA638D228824B4B003A97A5 /* AlwaysEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA638D128824B4B003A97A5 /* AlwaysEquatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,17 @@
 		8AA638AF28824177003A97A5 /* RootEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootEnvironment.swift; sourceTree = "<group>"; };
 		8AA638B028824177003A97A5 /* RootReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootReducer.swift; sourceTree = "<group>"; };
 		8AA638B128824177003A97A5 /* RootState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootState.swift; sourceTree = "<group>"; };
+		8AA638BD28824345003A97A5 /* Depth1Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth1Action.swift; sourceTree = "<group>"; };
+		8AA638BE28824345003A97A5 /* Depth1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth1View.swift; sourceTree = "<group>"; };
+		8AA638BF28824345003A97A5 /* Depth1Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth1Environment.swift; sourceTree = "<group>"; };
+		8AA638C028824345003A97A5 /* Depth1Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth1Reducer.swift; sourceTree = "<group>"; };
+		8AA638C128824345003A97A5 /* Depth1State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth1State.swift; sourceTree = "<group>"; };
+		8AA638C728824351003A97A5 /* Depth2Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2Action.swift; sourceTree = "<group>"; };
+		8AA638C828824351003A97A5 /* Depth2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2View.swift; sourceTree = "<group>"; };
+		8AA638C928824351003A97A5 /* Depth2Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2Environment.swift; sourceTree = "<group>"; };
+		8AA638CA28824351003A97A5 /* Depth2Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2Reducer.swift; sourceTree = "<group>"; };
+		8AA638CB28824351003A97A5 /* Depth2State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depth2State.swift; sourceTree = "<group>"; };
+		8AA638D128824B4B003A97A5 /* AlwaysEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysEquatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +126,13 @@
 		8AA6388128823DF8003A97A5 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
+				8AA638BB2882429E003A97A5 /* Depth2 */,
+				8AA638BA28824291003A97A5 /* Depth1 */,
 				8AA638AC28824148003A97A5 /* Root */,
 				8AA6388228823DF8003A97A5 /* ExperimentApp.swift */,
 				8AA6388628823DF9003A97A5 /* Assets.xcassets */,
 				8AA6388828823DF9003A97A5 /* Preview Content */,
+				8AA638D128824B4B003A97A5 /* AlwaysEquatable.swift */,
 			);
 			path = Experiment;
 			sourceTree = "<group>";
@@ -147,6 +172,30 @@
 				8AA638B128824177003A97A5 /* RootState.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		8AA638BA28824291003A97A5 /* Depth1 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA638BD28824345003A97A5 /* Depth1Action.swift */,
+				8AA638BE28824345003A97A5 /* Depth1View.swift */,
+				8AA638BF28824345003A97A5 /* Depth1Environment.swift */,
+				8AA638C028824345003A97A5 /* Depth1Reducer.swift */,
+				8AA638C128824345003A97A5 /* Depth1State.swift */,
+			);
+			path = Depth1;
+			sourceTree = "<group>";
+		};
+		8AA638BB2882429E003A97A5 /* Depth2 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA638C728824351003A97A5 /* Depth2Action.swift */,
+				8AA638C828824351003A97A5 /* Depth2View.swift */,
+				8AA638C928824351003A97A5 /* Depth2Environment.swift */,
+				8AA638CA28824351003A97A5 /* Depth2Reducer.swift */,
+				8AA638CB28824351003A97A5 /* Depth2State.swift */,
+			);
+			path = Depth2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,11 +334,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA638CE28824351003A97A5 /* Depth2Environment.swift in Sources */,
 				8AA638B328824177003A97A5 /* RootView.swift in Sources */,
 				8AA638B228824177003A97A5 /* RootAction.swift in Sources */,
+				8AA638C428824345003A97A5 /* Depth1Environment.swift in Sources */,
+				8AA638D028824351003A97A5 /* Depth2State.swift in Sources */,
 				8AA638B428824177003A97A5 /* RootEnvironment.swift in Sources */,
+				8AA638C628824345003A97A5 /* Depth1State.swift in Sources */,
+				8AA638C528824345003A97A5 /* Depth1Reducer.swift in Sources */,
+				8AA638C228824345003A97A5 /* Depth1Action.swift in Sources */,
+				8AA638C328824345003A97A5 /* Depth1View.swift in Sources */,
 				8AA638B628824177003A97A5 /* RootState.swift in Sources */,
+				8AA638D228824B4B003A97A5 /* AlwaysEquatable.swift in Sources */,
+				8AA638CF28824351003A97A5 /* Depth2Reducer.swift in Sources */,
 				8AA638B528824177003A97A5 /* RootReducer.swift in Sources */,
+				8AA638CC28824351003A97A5 /* Depth2Action.swift in Sources */,
+				8AA638CD28824351003A97A5 /* Depth2View.swift in Sources */,
 				8AA6388328823DF8003A97A5 /* ExperimentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

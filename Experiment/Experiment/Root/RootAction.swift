@@ -6,4 +6,5 @@
 //
 
 enum RootAction: Equatable {
+  case depth1Action(Depth1Action)
 }

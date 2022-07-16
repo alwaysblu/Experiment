@@ -17,8 +17,19 @@ extension RootReducer {
   init() {
     self = Self
       .combine(
+        Depth1Reducer()
+          .pullback(
+            state: \.depth1State,
+            action: /RootAction.depth1Action,
+            environment: { _ in
+              Depth1Environment()
+            }
+          ),
         .init { state, action, environment in
-          .none
+          switch action {
+          case .depth1Action:
+            return .none
+          }
         }
       )
   }

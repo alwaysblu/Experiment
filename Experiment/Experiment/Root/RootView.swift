@@ -23,7 +23,22 @@ struct RootView: View {
   }
 
   var body: some View {
-		Text("Hello, Root!")
+    NavigationView {
+      ZStack {
+        Color
+          .red
+          .ignoresSafeArea()
+        NavigationLink("depth1") {
+          Depth1View(
+            store: store
+              .scope(
+                state: \.depth1State,
+                action: RootAction.depth1Action
+              )
+          )
+        }
+      }
+    }
   }
 }
 
@@ -47,7 +62,7 @@ struct RootView_Previews: PreviewProvider {
 
   static var previews: some View {
     ForEach(ColorScheme.allCases, id: \.self) { colorScheme in
-			RootView(store: store)
+      RootView(store: store)
         .preferredColorScheme(colorScheme)
         .previewLayout(.sizeThatFits)
     }
